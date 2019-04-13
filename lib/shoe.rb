@@ -9,8 +9,7 @@ class Shoe
 
   def initialize(brand)
   @brand = brand
-    if brand.include
-  brand_array << brand
+  brand_array.uniq << brand
   end
 
   def cobble
