@@ -10,6 +10,7 @@ class Shoe
   def initialize(brand)
   @brand = brand
   brand_array.uniq << brand
+  binding.pry
   end
 
   def cobble
