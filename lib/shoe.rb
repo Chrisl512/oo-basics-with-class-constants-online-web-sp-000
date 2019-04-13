@@ -7,10 +7,9 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    #if brand.
-  @brand = brand
-  BRANDS << brand
-  BRANDS.uniq!
+    @brand = brand
+    BRANDS << brand
+    BRANDS.uniq!
   end
 
 
