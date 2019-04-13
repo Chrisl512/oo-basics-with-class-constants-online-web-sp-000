@@ -4,10 +4,12 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-  BRANDS = []
+  brands = []
 
   def initialize(brand)
   @brand = brand
+    brand.each do |brands|
+      if brands == 
   BRANDS << brand
   end
 
