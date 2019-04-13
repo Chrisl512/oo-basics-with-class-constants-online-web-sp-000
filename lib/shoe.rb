@@ -12,7 +12,7 @@ class Shoe
   end
 
   def brand
-    @brand
+    @brand.uniq
   end
 
   def cobble
