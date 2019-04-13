@@ -2,14 +2,13 @@ require "pry"
 
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand_array
+  attr_reader :brand
 
   BRANDS = []
-  brand_array = []
 
   def initialize(brand)
   @brand_array = brand
-  brand_array << brand
+  BRAND << brand
   binding.pry
   end
 
