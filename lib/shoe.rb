@@ -6,10 +6,9 @@ class Shoe
 
   BRANDS = []
 
-  def initialize(brand)
+  def brands=(brand)
     @brand = brand
     BRANDS << brand
-binding.pry
   end
 
   def cobble
