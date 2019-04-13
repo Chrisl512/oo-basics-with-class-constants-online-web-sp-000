@@ -13,6 +13,7 @@ class Shoe
 
   def brand
     @brand.uniq
+    binding.pry
   end
 
   def cobble
