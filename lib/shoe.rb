@@ -5,10 +5,12 @@ class Shoe
   attr_reader :brand
 
   BRANDS = []
+  brand_array = []
 
   def initialize(brand)
   @brand = brand
-  BRANDS << brand
+    if brand.include
+  brand_array << brand
   end
 
   def cobble
