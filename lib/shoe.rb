@@ -7,7 +7,7 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-  @brand_array = brand
+  @brand = brand
   BRAND << brand
   binding.pry
   end
