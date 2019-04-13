@@ -10,7 +10,7 @@ class Shoe
     #if brand.
   @brand = brand
   BRANDS << brand
-  BRANDS.uniq
+  BRANDS.uniq!
   end
 
 
